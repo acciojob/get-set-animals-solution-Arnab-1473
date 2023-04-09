@@ -5,7 +5,7 @@ class Animal {
 
   get species() {
     return this.species;
-  
+  }
 
   makeSound() {
     console.log("The " + this.species + " makes a sound");
@@ -14,7 +14,7 @@ class Animal {
 
 class Cat extends Animal {
   purr() {
-    console.log("purr!!");
+    console.log("purr");
   }
 }
 
